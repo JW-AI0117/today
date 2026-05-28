@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
-
+#include "add.h"
+#include "sub.h"
+#include "mul.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+  int a = 10;
+  int b = 20;
+	printf("a + b = %d\n", add(a, b));
+	printf("a - b = %d\n", sub(a, b));
+	printf("a * b = %d\n", mul(a, b));
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
